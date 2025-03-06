@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: hola-mundo-container
-        image: nginx
+        image: /hola-mundo-app:1.0  # Usa tu imagen personalizada
         ports:
         - containerPort: 80
